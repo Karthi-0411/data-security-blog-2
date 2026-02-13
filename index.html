@@ -236,6 +236,79 @@
             font-size: 1.05em;
         }
 
+        .blog-image {
+            width: 100%;
+            border-radius: 12px;
+            margin: 25px 0;
+            display: block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            object-fit: cover;
+        }
+
+        .image-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: -15px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .ref-section {
+            background: #f8f9fa;
+            padding: 40px;
+            border-top: 4px solid #2a5298;
+            margin-top: 40px;
+        }
+
+        .ref-section h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .ref-section h3 {
+            color: #2a5298;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+
+        .ref-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .ref-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 1em;
+        }
+
+        .ref-list li:last-child {
+            border-bottom: none;
+        }
+
+        .ref-list li span {
+            color: #555;
+            font-weight: bold;
+            display: inline-block;
+            min-width: 30px;
+        }
+
+        .ref-list a {
+            color: #2a5298;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .ref-list a:hover {
+            text-decoration: underline;
+            color: #667eea;
+        }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -272,6 +345,14 @@
                     <h4>📖 What is Data Security?</h4>
                     <p>Data security refers to the practice of protecting digital information from unauthorized access, corruption, theft, or loss throughout its entire lifecycle. It encompasses the strategies, processes, and technologies used to safeguard data from internal and external threats, ensuring confidentiality, integrity, and availability of information.</p>
                 </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=900&auto=format&fit=crop"
+                    alt="Data Security - Digital Lock and Network Protection"
+                    class="blog-image"
+                    style="max-height:360px;"
+                />
+                <p class="image-caption">Fig 1: Data security protects digital information across networks and systems</p>
 
                 <p>In today's digital age, where businesses and individuals generate and store massive amounts of data, data security has become paramount. From personal information like social security numbers and banking details to corporate intellectual property and trade secrets, protecting data is crucial for maintaining trust, complying with regulations, and preventing financial losses.</p>
 
@@ -339,6 +420,14 @@
                 </div>
             </div>
 
+                <img
+                    src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=900&auto=format&fit=crop"
+                    alt="Cybersecurity components - encryption and network protection"
+                    class="blog-image"
+                    style="max-height:360px;"
+                />
+                <p class="image-caption">Fig 2: Key components of data security including encryption, authentication and access control</p>
+
             <!-- Section 3: Types -->
             <div class="section">
                 <h2>3. Types of Data Security Measures</h2>
@@ -399,6 +488,15 @@
                         <li><strong>Zero-Day Exploits:</strong> Attacks on previously unknown vulnerabilities</li>
                     </ul>
                 </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=900&auto=format&fit=crop"
+                    alt="Cyber threats - hacker attacking computer systems"
+                    class="blog-image"
+                    style="max-height:340px;"
+                />
+                <p class="image-caption">Fig 3: Cybercriminals and hackers are among the most significant threats to data security today</p>
+
             </div>
 
             <!-- Section 5: Best Practices -->
@@ -437,6 +535,14 @@
                     <p><strong>Industry:</strong> Financial Services / Credit Reporting</p>
                     
                     <p style="margin-top: 15px;">Equifax is a global data, analytics, and technology company that collects and aggregates information on over 800 million individual consumers and more than 88 million businesses worldwide. The company maintains one of the largest databases of consumer credit information, making it a prime target for cybercriminals.</p>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1633265486064-086b219458ec?w=900&auto=format&fit=crop"
+                        alt="Data breach concept - personal data compromised"
+                        class="blog-image"
+                        style="max-height:320px;"
+                    />
+                    <p class="image-caption">Fig 4: A data breach occurs when cybercriminals gain unauthorized access to sensitive personal information stored by organizations</p>
 
                     <!-- <div class="image-placeholder" style="height: 200px; background: linear-gradient(135deg, #c92a2a 0%, #ff6b6b 100%);">
                         🏦 Equifax Corporation<br>
@@ -605,6 +711,15 @@
             <!-- Final Section -->
             <div class="section">
                 <h2>6. Conclusion</h2>
+
+                <img
+                    src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=900&auto=format&fit=crop"
+                    alt="Data security best practices - secure digital future"
+                    class="blog-image"
+                    style="max-height:320px;"
+                />
+                <p class="image-caption">Fig 5: Adopting strong data security practices is essential for every individual and organization in the digital era</p>
+
                 <p>Data security is an ongoing journey rather than a destination. As technology evolves and new threats emerge, organizations and individuals must continuously adapt their security strategies and practices. The Equifax case study demonstrates that even momentary lapses in security can have far-reaching consequences.</p>
 
                 <p>By understanding the fundamentals of data security, implementing comprehensive protection measures, staying informed about emerging threats, and learning from real-world incidents, we can better protect our digital assets and maintain the trust that is essential in our increasingly connected world.</p>
@@ -622,39 +737,105 @@
                 </div> -->
             </div>
         </div>
-        
 
-        <!-- Sources and References Section -->
-        <div style="background: #f0f0f0; padding: 40px; margin-top: 40px; border-top: 3px solid #667eea;">
-            <div class="content">
-                <h2 style="color: #1e3c72; margin-bottom: 20px;">📚 Sources and References</h2>
-                <p style="margin-bottom: 20px;"><strong>Disclaimer:</strong> This is an educational blog post created for learning purposes. All content is original explanatory text based on general knowledge of data security principles with no direct reproduction of copyrighted material.</p>
-                
-                <h3 style="color: #1e3c72; font-size: 1.3em; margin-top: 20px; margin-bottom: 15px;">Information Sources Used:</h3>
-                <ul style="margin-left: 20px; line-height: 1.8;">
-                    <li><strong>Equifax Breach Information:</strong> Based on publicly available FTC reports, official breach disclosures, and news archives</li>
-                    <li><strong>Data Security Concepts:</strong> General industry knowledge and widely-documented cybersecurity frameworks</li>
-                    <li><strong>Security Standards:</strong> NIST Cybersecurity Framework, ISO 27001, and common industry practices</li>
-                    <li><strong>Terminology:</strong> Standard definitions from cybersecurity and IT industry sources</li>
-                </ul>
+        <!-- References Section -->
+        <div class="ref-section">
+            <h2>📚 References</h2>
+            <p style="color:#555; margin-bottom:25px;">The following sources were used for the content and images in this blog. All links are publicly accessible.</p>
 
-                <h3 style="color: #1e3c72; font-size: 1.3em; margin-top: 20px; margin-bottom: 15px;">Public Resources Referenced:</h3>
-                <ul style="margin-left: 20px; line-height: 1.8;">
-                    <li>FTC Official Equifax Breach Disclosure and Settlement Information</li>
-                    <li>NIST Cybersecurity Framework Guidelines</li>
-                    <li>Common Industry Standards and Best Practices</li>
-                    <li>Public News Archives and Documentation</li>
-                </ul>
+            <!-- Content References -->
+            <h3>🔗 Content Sources</h3>
+            <ul class="ref-list">
+                <li>
+                    <span>[1]</span>
+                    <strong>What is Data Security? – IBM:</strong><br>
+                    <a href="https://www.ibm.com/topics/data-security" target="_blank">https://www.ibm.com/topics/data-security</a>
+                </li>
+                <li>
+                    <span>[2]</span>
+                    <strong>Data Security – NIST (National Institute of Standards and Technology):</strong><br>
+                    <a href="https://www.nist.gov/cybersecurity" target="_blank">https://www.nist.gov/cybersecurity</a>
+                </li>
+                <li>
+                    <span>[3]</span>
+                    <strong>Data Security Definition & Components – Fortinet:</strong><br>
+                    <a href="https://www.fortinet.com/resources/cyberglossary/data-security" target="_blank">https://www.fortinet.com/resources/cyberglossary/data-security</a>
+                </li>
+                <li>
+                    <span>[4]</span>
+                    <strong>Types of Cybersecurity Threats – Cisco:</strong><br>
+                    <a href="https://www.cisco.com/c/en/us/products/security/common-cyberattacks.html" target="_blank">https://www.cisco.com/c/en/us/products/security/common-cyberattacks.html</a>
+                </li>
+                <li>
+                    <span>[5]</span>
+                    <strong>Equifax Data Breach – Official FTC Report &amp; Settlement:</strong><br>
+                    <a href="https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement" target="_blank">https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement</a>
+                </li>
+                <li>
+                    <span>[6]</span>
+                    <strong>Equifax Breach Explained – U.S. Senate Committee Report:</strong><br>
+                    <a href="https://www.warren.senate.gov/imo/media/doc/2018.09.06%20Equifax%20Report.pdf" target="_blank">https://www.warren.senate.gov/imo/media/doc/2018.09.06%20Equifax%20Report.pdf</a>
+                </li>
+                <li>
+                    <span>[7]</span>
+                    <strong>Apache Struts Vulnerability CVE-2017-5638 – NIST NVD:</strong><br>
+                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2017-5638" target="_blank">https://nvd.nist.gov/vuln/detail/CVE-2017-5638</a>
+                </li>
+                <li>
+                    <span>[8]</span>
+                    <strong>Data Security Best Practices – CISA (Cybersecurity &amp; Infrastructure Security Agency):</strong><br>
+                    <a href="https://www.cisa.gov/topics/cybersecurity-best-practices" target="_blank">https://www.cisa.gov/topics/cybersecurity-best-practices</a>
+                </li>
+                <li>
+                    <span>[9]</span>
+                    <strong>ISO/IEC 27001 – Information Security Standard:</strong><br>
+                    <a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank">https://www.iso.org/isoiec-27001-information-security.html</a>
+                </li>
+                <li>
+                    <span>[10]</span>
+                    <strong>Encryption Explained – Cloudflare Learning:</strong><br>
+                    <a href="https://www.cloudflare.com/learning/ssl/what-is-encryption/" target="_blank">https://www.cloudflare.com/learning/ssl/what-is-encryption/</a>
+                </li>
+            </ul>
 
-                <div class="definition-box" style="background: #d4edda; border-left-color: #28a745; margin-top: 25px;">
-                    <h4 style="color: #155724;">✅ Copyright and Attribution Notice</h4>
-                    <p style="margin: 0;">This content is original educational material. All explanatory text was created specifically for this blog post. No copyrighted material, proprietary content, or trademarked information has been reproduced without attribution. If you believe any content infringes on intellectual property rights, please contact for immediate review.</p>
-                </div>
+            <!-- Image References -->
+            <h3 style="margin-top:30px;">🖼️ Image Sources</h3>
+            <ul class="ref-list">
+                <li>
+                    <span>[I1]</span>
+                    <strong>Fig 1 – Data Security Digital Network:</strong><br>
+                    <a href="https://unsplash.com/photos/data-security-digital-network-XuVa3RMqKHo" target="_blank">https://unsplash.com/photos/XuVa3RMqKHo</a>
+                    &nbsp;| Source: Unsplash (Free to use, no attribution required)
+                </li>
+                <li>
+                    <span>[I2]</span>
+                    <strong>Fig 2 – Cybersecurity Components &amp; Encryption:</strong><br>
+                    <a href="https://unsplash.com/photos/cybersecurity-components-Iyv47R9fxX0" target="_blank">https://unsplash.com/photos/Iyv47R9fxX0</a>
+                    &nbsp;| Source: Unsplash (Free to use, no attribution required)
+                </li>
+                <li>
+                    <span>[I3]</span>
+                    <strong>Fig 3 – Cyber Threats &amp; Hacking:</strong><br>
+                    <a href="https://unsplash.com/photos/cyber-threats-hacker-RflgrtzTK6s" target="_blank">https://unsplash.com/photos/RflgrtzTK6s</a>
+                    &nbsp;| Source: Unsplash (Free to use, no attribution required)
+                </li>
+                <li>
+                    <span>[I4]</span>
+                    <strong>Fig 4 – Data Breach Concept:</strong><br>
+                    <a href="https://unsplash.com/photos/data-breach-personal-data-pjAH2Ax4uWk" target="_blank">https://unsplash.com/photos/pjAH2Ax4uWk</a>
+                    &nbsp;| Source: Unsplash (Free to use, no attribution required)
+                </li>
+                <li>
+                    <span>[I5]</span>
+                    <strong>Fig 5 – Data Security Best Practices:</strong><br>
+                    <a href="https://unsplash.com/photos/secure-digital-future-6EnTPvPPL6I" target="_blank">https://unsplash.com/photos/6EnTPvPPL6I</a>
+                    &nbsp;| Source: Unsplash (Free to use, no attribution required)
+                </li>
+            </ul>
+
+            <div style="background:#e7f5ff; border-left:5px solid #2a5298; padding:15px; border-radius:8px; margin-top:25px;">
+                <p style="margin:0; font-size:0.95em;"><strong>📌 Note:</strong> All images are sourced from <a href="https://unsplash.com" target="_blank">Unsplash.com</a> under the <a href="https://unsplash.com/license" target="_blank">Unsplash Free License</a>. All content references are from publicly available and free-to-access sources. This blog was created for educational purposes as part of a CA3 assignment.</p>
             </div>
-        </div>
-
-        <div class="content">
-            
         </div>
 
         <footer>
